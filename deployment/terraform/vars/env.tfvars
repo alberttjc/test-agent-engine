@@ -1,19 +1,11 @@
-# Project name used for resource naming
-project_name = "my-awesome-agent"
-
-# Your Production Google Cloud project id
-prod_project_id = "your-production-project-id"
-
-# Your Staging / Test Google Cloud project id
-staging_project_id = "your-staging-project-id"
-
-# Your Google Cloud project ID that will be used to host the Cloud Build pipelines.
-cicd_runner_project_id = "your-cicd-project-id"
-# Name of the host connection you created in Cloud Build
-host_connection_name = "git-my-awesome-agent"
-
-# Name of the repository you added to Cloud Build
-repository_name = "my-awesome-agent"
-
-# The Google Cloud region you will use to deploy the infrastructure
+staging_project_id = "heidi-hackathon-465701"
+prod_project_id = "heidi-hackathon-465701"
+cicd_runner_project_id = "heidi-hackathon-465701"
 region = "us-central1"
+repository_name = "test-agent-engine"
+repository_owner = "alberttjc"
+host_connection_name = "git-test-agent-engine"
+create_cb_connection = true
+create_repository = false
+github_app_installation_id = "51175751"
+github_pat_secret_id = "git-test-agent-engine-github-oauthtoken-df4eee"
